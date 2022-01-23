@@ -8,7 +8,7 @@ public class Student {
 	public float grade;
 
 	public Student() {
-		System.out.println("this is from default constructor of Student class");
+		System.out.println("This is from default constructor of Student class");
 	}
 
 	public Student(String stName, int stID, char sex, boolean isProgrammer, float grade) {
@@ -17,8 +17,7 @@ public class Student {
 		this.sex = sex;
 		this.isProgrammer = isProgrammer;
 		this.grade = grade;
-
-		System.out.println("student name:" + stName + ", ID:" + stID + ", Sex:" + sex + ",Grade:" + grade
-				+ ",and JavaProgrammer? Ans:" + isProgrammer);
+		System.out.println("student name:" + stName + ", ID:" + stID + ", Sex:" + sex + ", Grade:" + grade
+				+ " and JavaProgrammer? Ans:" + isProgrammer);
 	}
 }

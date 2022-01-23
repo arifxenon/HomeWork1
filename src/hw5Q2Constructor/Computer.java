@@ -1,14 +1,15 @@
 package hw5Q2Constructor;
 
 public class Computer {
-
-	public String brandName, model, operatingSystem;
+	public String brandName;
+	public String model;
+	public String operatingSystem;
 	public int price;
 	public boolean madeInUSA;
 	public char grade;
 
 	public Computer() {
-		System.out.println("this is from default constructor of Computer class");
+		System.out.println("This is from default constructor of Computer class");
 	}
 
 	public Computer(String brandName, String model, String operatingSystem, int price, boolean madeInUSA, char grade) {
@@ -18,10 +19,7 @@ public class Computer {
 		this.price = price;
 		this.madeInUSA = madeInUSA;
 		this.grade = grade;
-
-		System.out.println("My Brand:" + brandName + ",Model:" + model + ",OperatingSystem:" + operatingSystem
-				+ ",Price:" + price + ",Grade:" + grade + ",Made in USA? Ans:" + madeInUSA);
-
+		System.out.println("My Brand:" + brandName + ", Model:" + model + ", OperatingSystem:" + operatingSystem
+				+ ", Price:" + price + ", Grade:" + grade + " and Made in USA? Ans:" + madeInUSA);
 	}
-
 }

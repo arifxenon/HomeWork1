@@ -13,20 +13,13 @@ public class AboutMe007 {
 	public boolean results = true;
 
 	public static void main(String[] args) {
-
 		AboutMe007 aboutMe = new AboutMe007();
-
-		// AboutMe007 is a class, aboutMe is an object or reference variable - always
-		// start
-		// with lower case
-
+		// AboutMe007 is a class, aboutMe is an object or reference variable
+		// always start with lower case.
 		// an object is created (aboutMe) from class (AboutMe007) which is new and
-		// AboutMe007
-		// type
+		// AboutMe007 type.
 		// Since aboutMe(object) is created from AboutMe007 (class), So the class
-		// (AboutMe007)
-		// is instantiated.
-
+		// (AboutMe007) is instantiated.
 		System.out.println(aboutMe.name);
 		System.out.println(aboutMe.age);
 		System.out.println(aboutMe.myRollNum);
@@ -37,10 +30,8 @@ public class AboutMe007 {
 		System.out.println(aboutMe.myGrade);
 		System.out.println(aboutMe.results);
 
-		System.out.println(aboutMe.name + aboutMe.age); // Using concatenation
-
+		System.out.println(aboutMe.name + aboutMe.age);
+		// Using concatenation.
 		System.out.println("My Name: " + aboutMe.name + ", My Age: " + aboutMe.age);
-
 	}
-
 }
