@@ -2,9 +2,10 @@ package hw4Q2_2_JavaVariables_declared;
 
 public class AboutMe00007Test {
 	public static void main(String[] args) {
-		// Here variable is initialized.
-		AboutMe00007 me = new AboutMe00007();
-		me.name = "Arif";
+		// AboutMe0007 class is instantiated, always inside main method, not in other
+		// method
+		AboutMe00007 me = new AboutMe00007(); // Constructor is initialized, when an object is created
+		me.name = "Arif"; // variables initialized from this line.
 		me.age = 27;
 		me.myRollNum = 32678;
 		me.myRegistrationNum = 324567897;
@@ -13,7 +14,7 @@ public class AboutMe00007Test {
 		me.myGpa = 4.751234567891234d;
 		me.myGrade = 'A';
 		me.results = true;
-		me.aboutMe();
+		me.aboutMe(); // method initialized.
 
 		System.out.println("\n**************************************************\n");
 		// variable initialized
@@ -27,6 +28,6 @@ public class AboutMe00007Test {
 		me2.myGpa = 3.456789012349876d;
 		me2.myGrade = 'C';
 		me2.results = true;
-		me2.aboutMe();
+		me2.aboutMe(); // method initialized.
 	}
 }
