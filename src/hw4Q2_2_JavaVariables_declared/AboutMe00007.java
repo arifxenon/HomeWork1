@@ -19,8 +19,8 @@ public class AboutMe00007 {
 
 	// method implemented.
 	public void aboutMe() {
-		System.out.println("My name: " + name + "\nMy Age:" + age + "\nMy Roll Num:" + myRollNum
-				+ "\nMy Registration Num:" + myRegistrationNum + "\nMy center code:" + myCenterCode + "\nOut of gpa:"
-				+ gpaScale + "\nMy gpa is:" + myGpa + "\nMy grade is:" + myGrade + "\nresults came? Ans:" + results);
+		System.out.println("My name: " + name + "\nMy Age: " + age + "\nMy Roll Num: " + myRollNum
+				+ "\nMy Registration Num: " + myRegistrationNum + "\nMy center code: " + myCenterCode + "\nOut of gpa: "
+				+ gpaScale + "\nMy gpa is: " + myGpa + "\nMy grade is: " + myGrade + "\nresults came? Ans: " + results);
 	}
 }
