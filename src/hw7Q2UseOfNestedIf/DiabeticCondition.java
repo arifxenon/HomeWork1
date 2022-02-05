@@ -7,19 +7,19 @@ public class DiabeticCondition {
 	public static void main(String[] args) {
 		System.out.println("<-- Please Enter your Hemoglobin A1C value below --> ");
 
-		Scanner scan = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		double hbga1c;
-		hbga1c = scan.nextDouble();
+		hbga1c = scanner.nextDouble();
 
 		if (hbga1c > 6.4) {
-			System.out.println("\"I am a diabetic patient");
+			System.out.println("I am a diabetic patient");
 		} else {
-			System.out.println("Congratulation! you are not diabetic.");
 			if (hbga1c >= 5.7) {
 				System.out.println("I am a pre-diabetic patient");
 			} else if (hbga1c < 5.7) {
 				System.out.println("I am a healthy person");
 			}
 		}
+		scanner.close();
 	}
 }
