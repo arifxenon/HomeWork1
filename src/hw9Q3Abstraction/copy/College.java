@@ -8,11 +8,11 @@ public interface College {
 	public void languageClub();
 
 	public default void dorm() { // default method
-		System.out.println(" dorm form college ");
+		System.out.println(" Many students are living in the dorm");
 	}
 
 	public static void studyRoom() { // static method
-		System.out.println(" studyRoom form College");
+		System.out.println(" StudyRoom is a major components of library");
 	}
 }
 

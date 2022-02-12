@@ -8,11 +8,11 @@ public interface University {
 	public void teacher();
 
 	public default void gymnasium() { // Default method.
-		System.out.println(" Gymnasium form University ");
+		System.out.println(" Students can play basketball in the gymnasium ");
 	}
 
 	public static void library() { // Static method.
-		System.out.println(" Library from University");
+		System.out.println(" Every University has its own library");
 	}
 }
 
